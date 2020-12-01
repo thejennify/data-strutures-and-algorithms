@@ -4,6 +4,7 @@ Big 0 notation is use in measuring how long an algorithm takes to run.
 ** O(1): ** Constant- no loops.
 
 ** O(log N) ** Logarithmic- usually searching algorithms have log n if they are sorted (Binary Search) O(n) Linear- for loops, while loops through n items.
+- Time grows proportionally as the input grows. 
 
 ** O(n log(n)) ** Log Liniear- usually sorting operations.
 
@@ -33,3 +34,17 @@ Why would we want to measure how long an algorithm takes to execute?
  1. it helpful when measuring scalability - the question we ask ourselfs with Big O is "How much does the algorithms slows down when the input/data grows bigger?
 
  
+## Space Complexity
+
+When a program exetues, it has 2 ways to remember things:
+
+- Heaps:  where variables are stored
+- Stack:  where we keep track of function calls.
+
+What causes time complexity:
+    1. variables 
+    2. data Strutures 
+    3. function calls 
+    4. allocations 
+
+** Sometimes we want to optimize in terms of space ratger than time. **  There is a trade off between time and space.
