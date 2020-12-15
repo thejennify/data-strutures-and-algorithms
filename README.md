@@ -1,2 +1,2 @@
 # data-strutures-and-algorithms
-Data strutures and algorithms note in JavaScript 
+Data strutures and algorithms notes in JavaScript 
